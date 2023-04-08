@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.opening-title h1 {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 90px;
+    text-align: center;
+}
+
+@media (max-width: 507px) {
+    .courses {
+        padding-left: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    .opening-title h1 {
+        font-size: 35px;
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+
+.courses > div {
+    width: 350px;
+    height: 400px; 
+    background-color: rgba(16, 149, 190, 0.15); 
+    backdrop-filter: blur(5px);    
+    margin: 20px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 13px;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 2.5rem 3.75rem 3rem -3rem;
+    text-align: center;
+}
+
+.upper-layer1 {
+    height: 245px;
+    background: url(img/math1.jpg);
+    background-size: contain;
+    border-radius: 12px;
+}
+
+.upper-layer2 {
+    height: 245px;
+    background: url(img/math2.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.upper-layer3 {
+    height: 245px;
+    background: url(img/math3.png);
+    background-size: 400px;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.upper-layer4 {
+    height: 245px;
+    background: url(img/math4.jpg);
+    background-size: contain;
+    border-radius: 12px;
+}
+
+.upper-layer5 {
+    height: 245px;
+    background: url(img/math5.jpg);
+    background-size: contain;
+    border-radius: 12px;
+}
+
+.upper-layer6 {
+    height: 245px;
+    background: url(img/math6.jpg);
+    background-size: 380px;
+    opacity: 0.95;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.upper-layer7 {
+    height: 245px;
+    background: url(img/math7.jpg);
+    background-size: contain;
+    border-radius: 12px;
+}
+
+.upper-layer8 {
+    height: 245px;
+    background: url(img/math8.jpg);
+    background-size: contain;
+    border-radius: 12px;
+}
+
+.upper-layer9 {
+    height: 245px;
+    background: url(img/math9.jpg);
+    background-size: contain;
+    border-radius: 12px;
+}
+
+progress {
+    border: none;
+    display: block;
+    margin-top: 10px;
+    width: 200px;
+    height: 10px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+progress::-webkit-progress-value {
+    background: lightblue;
+}
+
+.lower-layer a {
+    text-decoration: none;
+    background-color: cornflowerblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 12px;
+}
+
+.p1 {
+    height: 245px;
+    background: url(img/prog1.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.p2 {
+    height: 245px;
+    background: url(img/prog6.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.p3 {
+    height: 245px;
+    background: url(img/prog7.jpg);
+    background-size: contain;
+    border-radius: 12px;
+}
+
+.p4 {
+    height: 245px;
+    background: url(img/prog2.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.p5 {
+    height: 245px;
+    background: url(img/prog8.png);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.p6 {
+    height: 245px;
+    background: url(img/prog3.png);
+    background-size: 100%;
+    background-position: right;
+    border-radius: 12px;
+}
+
+.p7 {
+    height: 245px;
+    background: url(img/prog4.png);
+    background-size: contain;
+    border-radius: 12px;
+}
+
+.p8 {
+    height: 245px;
+    background: url(img/prog5.png);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.p9 {
+    height: 245px;
+    background: url(img/prog9.jpg);
+    background-size: 110%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.w1 {
+    height: 245px;
+    background: url(img/w1.jpg);
+    background-size: 110%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.w2 {
+    height: 245px;
+    background: url(img/w2.jpg);
+    background-size: 110%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.w3 {
+    height: 245px;
+    background: url(img/w3.jpg);
+    background-size: 110%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.ph1 {
+    height: 245px;
+    background: url(img/physics1.jpg);
+    background-size: 120%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.ph2 {
+    height: 245px;
+    background: url(img/physics2.jpg);
+    background-size: 110%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.ph3 {
+    height: 245px;
+    background: url(img/physics3.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.ph4 {
+    height: 245px;
+    background: url(img/physics4.jpg);
+    background-size: 110%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.c1 {
+    height: 245px;
+    background: url(img/chem1.jpg);
+    background-size: 110%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.c2 {
+    height: 245px;
+    background: url(img/chem2.jpg);
+    background-size: 110%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.c3 {
+    height: 245px;
+    background: url(img/chem3.jpg);
+    background-size: 110%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.b1 {
+    height: 245px;
+    background: url(img/bio1.jpg);
+    background-size: 110%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.b2 {
+    height: 245px;
+    background: url(img/bio2.jpg);
+    background-size: 110%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.b3 {
+    height: 245px;
+    background: url(img/bio3.jpg);
+    background-size: 110%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.n1 {
+    height: 245px;
+    background: url(img/network1.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.n2 {
+    height: 245px;
+    background: url(img/network2.jpg);
+    background-size: 120%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.s1 {
+    height: 245px;
+    background: url(img/social2.jpg);
+    background-size: 120%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.s2 {
+    height: 245px;
+    background: url(img/social1.jpeg);
+    background-size: 110%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.s3 {
+    height: 245px;
+    background: url(img/social3.jpg);
+    background-size: 120%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.s4 {
+    height: 245px;
+    background: url(img/social4.png);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.s5 {
+    height: 245px;
+    background: url(img/social5.jpg);
+    background-size: 120%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.h1 {
+    height: 245px;
+    background: url(img/history1.png);
+    background-size: 140%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.h2 {
+    height: 245px;
+    background: url(img/history2.jpg);
+    background-size: 135%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.h3 {
+    height: 245px;
+    background: url(img/history3.jpg);
+    background-size: 132%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.h4 {
+    height: 245px;
+    background: url(img/history4.png);
+    background-size: 110%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.h5 {
+    height: 245px;
+    background: url(img/history5.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.h6 {
+    height: 245px;
+    background: url(img/history6.jpg);
+    background-size: 120%;
+    background-position: center;
+    border-radius: 12px;
+}
+
+
+

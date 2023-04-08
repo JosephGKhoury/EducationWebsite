@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-title-screen {
+    text-align: center;
+    padding-top: 60px;
+    margin-left: 10%;
+}
+
+.main-table {
+    background-color: #009578;
+    margin-left: 400px;
+    border-radius: 12px;
+    margin-top: 30px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.row {
+    display: flex;
+    height: 90px;
+    width: 100%;
+    color: white;
+}
+
+.row h1 {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+select {
+    background-color: #8d928f;
+    border-radius: 12px;  
+    width: 60px;
+    color: black;
+}
+
+input, label {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+#top-sub {
+    border-radius: 12px 12px 0 0;
+}
+
+#bottom-sub {
+    border-radius: 0 0 12px 12px;
+}
+
+#gradeSubmit {
+    background-color: #2f2f2f;
+    border-radius: 12px;
+    width: 200px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 30px;
+    border: none;
+    color: white;
+}
+
+.result-display {
+    margin-left: 400px;
+    margin-top: 20px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+@media (max-width: 767px) {
+    .main-table {
+        width: 80%;
+    }
+    .result-display {
+        width: 80%;
+    }
+    .main-title-screen {
+        padding-top: 80px;
+    }
+    
+}
